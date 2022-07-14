@@ -1,10 +1,10 @@
 package com.haeun.di;
 
 public class Student {
-	private String name;		//ÀÌ¸§
-	private String age;			//³ªÀÌ
-	private String grade;		//ÇĞ³â
-	private String classNum;	//¹İ
+	private String name;		//ì´ë¦„
+	private String age;			//ë‚˜ì´
+	private String grade;		//í•™ë…„
+	private String classNum;	//ë°˜
 	
 		
 	

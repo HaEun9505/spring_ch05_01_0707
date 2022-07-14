@@ -1,20 +1,21 @@
+
 package com.haeun.di;
 
 public class StudentInfo {
 	
 	private Student stu;
 	
-	//Student·Î ¸¸µç °´Ã¼ »ı¼ºÀÚ·Î ÃÊ±âÈ­
+	//Studentë¡œ ë§Œë“  ê°ì²´ ìƒì„±ìë¡œ ì´ˆê¸°í™”
 	public StudentInfo(Student stu) {
 		super();
 		this.stu = stu;
 	}
 	
 	public void getStudentInfo() {
-		System.out.println("ÀÌ¸§ : "+stu.getName());
-		System.out.println("³ªÀÌ : "+stu.getAge());
-		System.out.println("ÇĞ³â : "+stu.getGrade());
-		System.out.println("¹İ : "+stu.getClassNum());
+		System.out.println("ì´ë¦„ : "+stu.getName());
+		System.out.println("ë‚˜ì´ : "+stu.getAge());
+		System.out.println("í•™ë…„ : "+stu.getGrade());
+		System.out.println("ë°˜ : "+stu.getClassNum());
 		
 	}
 

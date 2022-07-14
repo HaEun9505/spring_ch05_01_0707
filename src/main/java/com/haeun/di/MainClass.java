@@ -9,9 +9,9 @@ public class MainClass {
 	     
 	      
 	      String config = "classpath:applicationCTX.xml";
-	      AbstractApplicationContext ctx = new GenericXmlApplicationContext(config);   // °´Ã¼ »ı¼º
+	      AbstractApplicationContext ctx = new GenericXmlApplicationContext(config);   // ê°ì²´ ìƒì„±
 	      StudentInfo studentInfo = ctx.getBean("studentInfo", StudentInfo.class);
-	      //bean id, Å¬·¡½º
+	      //bean id, í´ë˜ìŠ¤
 	      
 	      Student student2 = ctx.getBean("student2", Student.class);
 	      
@@ -19,6 +19,6 @@ public class MainClass {
 	      studentInfo.setStu(student2);
 	      studentInfo.getStudentInfo();
 	      
-	      ctx.close(); // »ç¿ë ÈÄ ´İ¾ÆÁà¾ßÇÔ
+	      ctx.close(); // ì‚¬ìš© í›„ ë‹«ì•„ì¤˜ì•¼í•¨
 	   }
 }
